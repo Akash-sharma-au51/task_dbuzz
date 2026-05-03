@@ -1,4 +1,4 @@
-1) How do you scale a MERN application?
+1)**How do you scale a MERN application?**
 
 When a MERN app starts getting more users, I first try to figure out where the bottleneck is.
 
@@ -134,5 +134,5 @@ when we are using put req, we have send entire data
 PATCH is used when you want to update specific data
 ex:{
   "name": "Akash"
-}
+  }
 when we are using patch req, we have send only specific data
