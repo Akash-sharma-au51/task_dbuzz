@@ -1,4 +1,4 @@
-1)**How do you scale a MERN application?**
+**1)How do you scale a MERN application?**
 
 When a MERN app starts getting more users, I first try to figure out where the bottleneck is.
 
@@ -13,7 +13,7 @@ On the frontend side, I’d optimize React using lazy loading, code splitting, a
 So overall, my approach is: optimize first, then scale infrastructure when needed.
 
 
-2) What are the pros and cons of MongoDB?
+**2) What are the pros and cons of MongoDB?**
 Pros:
 
 One thing I like about MongoDB is its flexible schema. We don’t need to define strict tables like SQL databases, which makes development faster when requirements change often.
@@ -35,7 +35,7 @@ For applications like banking systems where strict transactions and consistency 
 Also, if schema validation isn’t handled properly, data can become messy over time.
 
 
-3) Fix the following code and explain the issue
+**3) Fix the following code and explain the issue**
 
 app.get('/user/:id', async (req, res) => {
   const user = await User.findById(req.params.id);
@@ -64,7 +64,7 @@ Invalid ID → app may crash
 User not found → undefined error
 Database issue → server failure
 
-4) How does React rendering work when state updates?
+**4) How does React rendering work when state updates?**
 
 When state changes in React using something like setState or useState, React re-renders that component.
 
@@ -89,7 +89,7 @@ function Counter() {
 }
 
 
-5) Display JSON data in a React table
+**5) Display JSON data in a React table**
 
 const users = [
   { id: 1, name: "Amit", email: "amit@example.com" },
@@ -122,7 +122,7 @@ function TableData() {
 
 export default TableData;
 
-6) Difference between PUT and PATCH
+**6) Difference between PUT and PATCH**
 
 PUT is used when you want to update the entire data
 ex:{
